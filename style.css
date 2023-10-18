@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Exo 2", sans-serif;
+}
+header {
+    background-image: url(./imagenes/fondo\ del\ header.jpg);
+   width: 100%; 
+   padding: 10px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   z-index: 30000000;
+   }
+header img {
+    width: 100px;
+}
+header .menu-item a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    padding: 0px 20px;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#bannerBienvenida {
+    background-image: url(./imagenes/Imagen\ de\ fondo.jpg);
+    background-repeat: none;
+    background-size: cover;
+    padding: 200px 0px;
+
+}
+#bannerBienvenida h1 {
+    color: #ffffff;
+    font-size: 80px;
+    margin-bottom: 30px;
+    padding: 0px 20PX;
+}
+#bannerBienvenida p {
+    color: #ffffff;
+    font-size: 24PX;
+    margin-bottom: 20px;
+    padding: 30px 40PX;
+}
+#bannerBienvenida a{
+    text-decoration: none;
+    color: white;
+}
+#bannerBienvenidaSobreNosotros {
+    background-image: url(./imagenes/Imagen\ de\ fondo.jpg);
+    background-repeat: none;
+    background-size: cover;
+    padding: 300px 0px;
+
+}
+#bannerBienvenidaSobreNosotros h1 {
+    color: #ffffff;
+    font-size: 80px;
+    margin-bottom: 30px;
+    padding: 0px 20PX;
+}
+#bannerBienvenidaSobreNosotros p {
+    color: #ffffff;
+    font-size: 24PX;
+    margin-bottom: 20px;
+    padding: 30px 40PX;
+}
+footer{
+    background-color: black;
+}
+footer p {
+    color: #ffffff;
+    padding: 0px 10px;
+}
+footer img{
+    width: 100px;
+    padding: 0px 10px;
+}
+#bannerBienvenidaContacto {
+    background-image: url(./imagenes/Imagen\ de\ fondo.jpg);
+    background-repeat: none;
+    background-size: cover;
+    padding: 200px 0px;
+}   
+#bannerBienvenidaContacto h1 {
+    color: #ffffff;
+    font-size: 80px;
+    margin-bottom: 30px;
+    padding: 0px 20PX;
+}
+#bannerBienvenidaContacto p {
+    color: #ffffff;
+    font-size: 24PX;
+    margin-bottom: 20px;
+    padding: 30px 40PX;
+}
+#bannerBienvenidaProductos {
+    background-image: url(./imagenes/Imagen\ de\ fondo.jpg);
+    background-repeat: none;
+    background-size: cover;
+    padding: 200px 0px;
+
+}
+#bannerBienvenidaProductos h1 {
+    color: #ffffff;
+    font-size: 80px;
+    margin-bottom: 30px;
+    padding: 0px 20PX;
+}
+#bannerBienvenidaProductos p {
+    color: #ffffff;
+    font-size: 24PX;
+    margin-bottom: 20px;
+    padding: 30px 40PX;
+}
+#bannerBienvenidaVentaEmpresa {
+    background-image: url(./imagenes/Imagen\ de\ fondo.jpg);
+    background-repeat: none;
+    background-size: cover;
+    padding: 200px 0px;
+
+}
+#bannerBienvenidaVentaEmpresa h1 {
+    color: #ffffff;
+    font-size: 80px;
+    margin-bottom: 30px;
+    padding: 0px 20PX;
+}
+#bannerBienvenidaVentaEmpresa p {
+    color: #ffffff;
+    font-size: 24PX;
+    margin-bottom: 20px;
+    padding: 30px 40PX;
+}
+.producto-1{
+    background-color: black; 
+    width: 16%;   
+    padding: 30px 30px;
+    border-radius: 10%;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.producto-1 img{
+    width: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.caluga img{
+height: auto;
+width: 100%;
+padding: 20px;
+}
+.caluguita{
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+}
+.caluga{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
